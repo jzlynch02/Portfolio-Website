@@ -9,6 +9,7 @@
   width: 100%;
   top: 0;
   z-index: 100;
+  height: 60px; /* Set a fixed height for your header */
 }
 
 .Navigation a {
@@ -19,17 +20,18 @@
 }
 
 .App-main {
-  margin-top: 60px; /* Adjust based on header height */
+  padding-top: 100px; /* Adjust based on header height */
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* Adjust based on content */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center children horizontally */
 }
 
 .About {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  flex-direction: column; /* Stack children of .About vertically */
+  align-items: center; /* Center children of .About horizontally */
+  width: 100%; /* Full width to center content */
+  margin-bottom: 2rem; /* Space between About and Projects */
 }
 
 .Profile-image {
@@ -41,18 +43,41 @@
   background-size: cover;
 }
 
-.About-content h2 {
-  margin: 0;
+.About-content h2, .About-content h1 {
+  margin-bottom: 0.5rem; /* Add some space between your name and title */
 }
 
 .Buttons button {
   margin: 10px;
   padding: 10px 20px;
   border-radius: 5px;
+  cursor: pointer; /* Indicates a clickable button */
 }
 
 .Social-icons {
   font-size: 24px; 
   margin: 10px;
   color: #333;
+}
+
+.Projects {
+  text-align: left;
+  width: 80%; /* Adjust width to your preference */
+  max-width: 800px; /* Adjust max-width for large screens */
+  margin: 0 auto; /* Center the projects */
+}
+
+.Project-item {
+  margin-bottom: 20px;
+}
+
+.Project-item h3 {
+  color: #333;
+  font-size: 1.5em;
+}
+
+.Project-item p {
+  font-size: 1em;
+  line-height: 1.6;
+  color: #676;
 }
