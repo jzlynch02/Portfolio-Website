@@ -33,7 +33,10 @@ function App() {
               </a>
             </div>
             <div className="Buttons">
+            <a href={`${process.env.PUBLIC_URL}/resume.pdf`}
+            download="Resume_Joseph_Lynch.pdf">
               <button>Download CV</button>
+            </a>
               <button>Contact Info</button>
             </div>
           </div>
