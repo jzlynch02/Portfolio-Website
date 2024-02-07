@@ -18,7 +18,7 @@ function App() {
       <main className="App-main">
         <section id="about" className="About">
           <div className="Profile-image">
-            {/* Profile image here */}
+            {/* profile image here */}
           </div>
           <div className="About-content">
             <h2>Hello, I'm</h2>
@@ -56,7 +56,6 @@ function App() {
             <p>Developed a user-friendly To-Do List web application using HTML, CSS, and JavaScript, hosted on GitHub Pages. Implemented core functionalities, enabling users to add, remove, and edit tasks, enhancing personal productivity and task management.</p>
           </div>
         </section>
-        {/* Experience and Contact sections would go here */}
       </main>
       <footer className="footer">
         <h3>
