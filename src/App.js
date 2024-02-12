@@ -12,7 +12,7 @@ function App() {
           <a href="#about">About</a>
           <a href="#experience">Experience</a>
           <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
+         {/* <a href="#contact">Contact</a>*/}
         </nav>
       </header>
       <main className="App-main">
@@ -37,7 +37,7 @@ function App() {
             download="Resume_Joseph_Lynch.pdf">
               <button>Download CV</button>
             </a>
-              <button>Contact Info</button>
+              {/*<button>Contact Info</button>*/}
             </div>
           </div>
         </section>
