@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import './index.css';
-
+//npm run deploy
 function App() {
   return (
     <div className="App">
@@ -33,7 +33,7 @@ function App() {
               </a>
             </div>
             <div className="Buttons">
-            <a href={`${process.env.PUBLIC_URL}/resume.pdf`}
+            <a href={`${process.env.PUBLIC_URL}/Resume.pdf`}
             download="Resume_Joseph_Lynch.pdf">
               <button>Download Resume</button>
             </a>
