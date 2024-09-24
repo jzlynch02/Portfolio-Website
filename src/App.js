@@ -2,7 +2,9 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import './index.css';
+
 //npm run deploy
+
 function App() {
   return (
     <div className="App">
